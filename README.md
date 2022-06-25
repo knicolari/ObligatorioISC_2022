@@ -1,4 +1,4 @@
-# Este repositorio contiene el codigo automatizado para el despliegue de la infraestructura de microservicios
+# Este repositorio contiene el codigo automatizado para el despliegue de la infraestructura de microservicios mediante Terraform.
 
 ## Diagrama de la infraestructura:
 
@@ -23,7 +23,12 @@
         
 - Utilizamos un internet gateway para comunicar las instancias o algun otro componente de la vpc con internet.
 - Un route table para poder determinar donde vamos a poder dirigir el trafico.
-- Un cluster de EKS desple
+- Un cluster de EKS junto con un grupo de nodos el cual contendra las aplicaciones
+## Servicios de AWS utilizados:
+    - EC2
+    - EKS
+    - VPC
+    - Auto Scaling Groups
 
 
 
