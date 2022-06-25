@@ -15,10 +15,15 @@
     # CIDRs Block para subnet:
       1) 172.16.1.0/24
       2) 172.16.2.0/24
-- Un security group al cual perteneceran las instancias.
+- Un security group para permitir conexion por ssh.
+    # Configuracion de ingreso:
+        Protocolo TCP
+        Puerto 22
+        CIDR block 0.0.0.0/0
+        
 - Utilizamos un internet gateway para comunicar las instancias o algun otro componente de la vpc con internet.
 - Un route table para poder determinar donde vamos a poder dirigir el trafico.
-- 
+- Un cluster de EKS desple
 
 
 
