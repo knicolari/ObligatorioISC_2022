@@ -10,9 +10,9 @@
 
 -Instancias de EC2 con sistema Linux, capacidad de 20GB de disco y de tamaño t3.large.
 - Un vpc al cual se le uniran dos subnets cada una en una zona de disponibilidad distinta.
-    #CIDRs Block para VPC:
+    # CIDRs Block para VPC:
       172.16.0.0./16
-    #CIDRs Block para subnet:
+    # CIDRs Block para subnet:
       1) 172.16.1.0/24
       2) 172.16.2.0/24
 - Un security group al cual perteneceran las instancias.
