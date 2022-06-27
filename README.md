@@ -21,8 +21,20 @@
     # CIDRs Block para subnet:
       1) 172.16.1.0/24
       2) 172.16.2.0/24
-- Se creara un security group para permitir conexion por ssh, de manera que se pueda acceder de manera remota.
-    # Configuracion de ingreso:
+      
+- Se creara un security group para controlar el trafico de ingreso por HTTP y HTTPS a la red asi como la salida de la misma.
+
+    # Configuracion de ingreso para HTTP:
+        Protocolo: TCP
+        Puerto: 80
+        CIDR block: 0.0.0.0/0
+        
+    # Configuracion de ingreso para HTTPS:
+        Protocolo TCP
+        Puerto 443
+        CIDR block 0.0.0.0/0
+        
+    # Configuracion de ingreso pa:
         Protocolo TCP
         Puerto 22
         CIDR block 0.0.0.0/0
