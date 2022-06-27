@@ -11,6 +11,11 @@
 
 - Las instancias que utilizaremos seran de EC2 con sistema Linux de tamaño t3.large y capacidad de 20GB de disco .
 - Un vpc al cual contendra dos subnets cada una en una zona de disponibilidad distinta, estas instancias estaran cada una alojada en una de estas subnets.
+
+    
+    # Region y zonas de disponibilidad:
+      Region us-east-1
+      Zona de disponibilidad: us-east-1a y us-east-1b
     # CIDRs Block para VPC:
       172.16.0.0./16
     # CIDRs Block para subnet:
