@@ -31,7 +31,7 @@ resource "aws_subnet" "eks-subnet2" {
 
 resource "aws_security_group" "eks_sg" {
   name        = "eks_sg"
-  description = "eks ssh a nodos"
+  description = "eks control de trafico"
   vpc_id      = aws_vpc.eks-vpc.id
 
 
