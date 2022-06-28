@@ -51,7 +51,7 @@
     - VPC
     - Auto Scaling Groups
     
-## Para ver como se utiliza el codigo de Terraform haz click [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/7020a79c857283c9b1efd6755bc86d688b863fac/Codigo%20Terraform/README.md)
+## Para ver como se utiliza el codigo de Terraform haz click [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/59fb64e0ac574806e3162bfd1ae0bc3338a29c9f/Codigo%20Terraform/README.md)
 
 
 ## Ensamblaje de imagenes:
