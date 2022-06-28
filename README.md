@@ -53,7 +53,7 @@
     
 ## Para ver como se utiliza el codigo de Terraform haz click [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/7020a79c857283c9b1efd6755bc86d688b863fac/Codigo%20Terraform/README.md)    
     
-## Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/d808c29b7fe188401cc4226229822a9ff4853d72/Deployment/Instructivo%20de%20despliegue.md)
+## Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/8bf51017f8cdbd07c5f0ed7895c65d5efbc2cc2e/Deployment/README.md)
 
 
 
