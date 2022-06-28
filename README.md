@@ -51,8 +51,9 @@
     - VPC
     - Auto Scaling Groups
     
-## Despliegue de las aplicaciones:
-   Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/d808c29b7fe188401cc4226229822a9ff4853d72/Deployment/Instructivo%20de%20despliegue.md)
+## Para ver como se utiliza el codigo de Terraform haz click [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/7020a79c857283c9b1efd6755bc86d688b863fac/Codigo%20Terraform/README.md)    
+    
+## Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/d808c29b7fe188401cc4226229822a9ff4853d72/Deployment/Instructivo%20de%20despliegue.md)
 
 
 
