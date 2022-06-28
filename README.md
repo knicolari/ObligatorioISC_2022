@@ -50,11 +50,11 @@
     - EKS
     - VPC
     - Auto Scaling Groups
+    
+## Despliegue de las aplicaciones:
+   Para acceder al archivo que contiene informacion de despliegue entre [aqui](myLib/Instrcutivo de despliegue.md)
 
 
-
-
-https://github.com/knicolari/ObligatorioISC_2022/blob/d808c29b7fe188401cc4226229822a9ff4853d72/Deployment/Instructivo%20de%20despliegue.md
 
 
 
