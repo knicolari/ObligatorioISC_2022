@@ -55,11 +55,12 @@
 
 
 ## Ensamblaje de imagenes:
-   - Usamos Docker Engine 20.10.15 para el ensamblaje de las imagenes usando los Dockerfile que se encuentran en [este](https://github.com/ISC-ORT-FI/online-boutique)
+   - Usamos Docker Engine 20.10.15 para el ensamblaje de las imagenes, usando los Dockerfile que se encuentran en [este](https://github.com/ISC-ORT-FI/online-boutique)
    repositorio, entrando en el direcotorio src/"nombre del servicio"/Dockerfile
    - Previo a esto se creo una cuenta en Dockerhub, el cual es un repositorio donde estaran subidas las imagenes a utilizar luego.
    - Se loguea con el comando sudo docker login, el cual nos pedira el usuario de Dockerhub y la contraseña.
-   - Luego el proceso de ensamblaje y subir la imagen al repositorio se puede acceder en el siguiente [link](https://docs.docker.com/docker-hub/repos/#:~:text=To%20push%20an%20image%20to,docs%2Fbase%3Atesting%20).)
+   - Luego el proceso de ensamblaje de imagen y subirla al repositorio se puede obtener del siguiente [link](https://docs.docker.com/docker-hub/repos/#:~:text=To%20push%20an%20image%20to,docs%2Fbase%3Atesting%20)
+   - Luego se modifica el arhivo .yaml ubicado en la carpeta src/"nombre del servicio"/deployment, en el campo "IMAGE" se agrega el TAG de la imagen que subimos a la registry. 
     
    
 ## Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/8bf51017f8cdbd07c5f0ed7895c65d5efbc2cc2e/Deployment/README.md)
