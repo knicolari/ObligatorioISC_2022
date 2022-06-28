@@ -63,7 +63,7 @@
    - Luego se modifica el arhivo .yaml ubicado en la carpeta src/"nombre del servicio"/deployment, en el campo "IMAGE" se agrega el TAG de la imagen que subimos a la registry. 
     
    
-## Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/8d7b942a83a4814779090fe365b26def032879a7/Deployment/README.md)
+## Para acceder al archivo que contiene informacion de despliegue entre [aqui](https://github.com/knicolari/ObligatorioISC_2022/blob/59323a05f1f5c95a1731dd6bf0ae71f86a5f75d0/Deployment/README.md)
 
 
 
